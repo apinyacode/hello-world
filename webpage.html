@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apinya Medina-Chainapong - Assistant Managing Director KBTG</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        /* Starry background */
+        .stars {
+            width: 1px;
+            height: 1px;
+            background: transparent;
+            box-shadow:
+                50vw 100vh #fff,
+                70vw 80vh #fff,
+                90vw 60vh #fff,
+                30vw 40vh #fff,
+                10vw 20vh #fff,
+                80vw 90vh #fff,
+                60vw 70vh #fff,
+                40vw 50vh #fff,
+                20vw 30vh #fff,
+                0vw 10vh #fff;
+            animation: animStar 50s linear infinite;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        @keyframes animStar {
+            from { transform: translateY(0px); }
+            to { transform: translateY(-2000px); }
+        }
+        .container {
+            text-align: center;
+            padding: 150px 20px;
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 24px;
+            margin-bottom: 50px;
+            color: #ccc;
+        }
+        .about-me {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        .about-me h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+        /* Responsive design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 36px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            .about-me {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="container">
+        <h1>Apinya Medina-Chainapong</h1>
+        <h2>Assistant Managing Director KBTG</h2>
+        <div class="about-me">
+            <h3>About Me</h3>
+            <p>
+                Welcome to my personal webpage. I am passionate about exploring new frontiers and pushing the boundaries of innovation. As the Assistant Managing Director at KBTG, I lead initiatives that inspire curiosity and drive technological advancements.
+            </p>
+            <!-- You can add more content about yourself here -->
+        </div>
+    </div>
+</body>
+</html>
